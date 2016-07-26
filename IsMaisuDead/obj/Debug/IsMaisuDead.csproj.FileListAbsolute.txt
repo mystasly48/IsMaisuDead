@@ -11,3 +11,16 @@ C:\Programming\C#\Sources\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.Properti
 C:\Programming\C#\Sources\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.csproj.GenerateResource.Cache
 C:\Programming\C#\Sources\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.exe
 C:\Programming\C#\Sources\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.pdb
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\bin\Debug\IsMaisuDead.exe.config
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.exe
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.pdb
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\bin\Debug\IsMaisuDead.exe
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\bin\Debug\IsMaisuDead.pdb
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\bin\Debug\CoreTweet.dll
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\bin\Debug\CoreTweet.xml
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.csprojResolveAssemblyReference.cache
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.Form1.resources
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.Properties.Resources.resources
+D:\Programming\C#\WinForm\IsMaisuDead\IsMaisuDead\obj\Debug\IsMaisuDead.csproj.GenerateResource.Cache
