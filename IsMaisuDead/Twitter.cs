@@ -11,40 +11,11 @@ namespace IsMaisuDead {
             tokens = Tokens.Create(Keys.ConsumerKey, Keys.ConsumerSecret, Keys.AccessToken, Keys.AccessTokenSecret);
         }
 
-        //// 名前の語尾にステータスを表示
-        //public static void StatusName(String status) {
-        //    var delName = "";
-        //    var addName = "";
-        //    var Online = " (Online)";
-        //    var Offline = " (Offline)";
-        //    if (status == Online) {
-        //        addName = Online;
-        //        delName = Offline;
-        //    } else {
-        //        addName = Offline;
-        //        delName = Online;
-        //    }
-        //    var oldName = tokens.Account.UpdateProfile().Name;
-        //    var newName = "";
-        //    if (oldName.Contains(addName)) {
-        //        return;
-        //    } else if (oldName.Contains(delName)) {
-        //        newName = oldName.Replace(delName, "");
-        //        newName += addName;
-        //    } else {
-        //        newName = oldName + addName;
-        //    }
-        //    tokens.Account.UpdateProfile(name: newName);
-        //}
-
         // 名前の語尾にステータスを表示
         public static void StatusName(String status) {
-            // 名前の最大文字数は２０文字。
-            // " (Online)" が９文字で、" (Offline)" が１０文字なため、
-            // それを除いた名前の最大文字数は１０文字。
             const string Online = " (Online)";
             const string Offline = " (Offline)";
-            var oldName = tokens.Account.UpdateProfile().Name;
+            var oldName = GetName();
             var newName = "";
             switch (status) {
                 case Online:
@@ -54,7 +25,7 @@ namespace IsMaisuDead {
                     newName = oldName.Replace(Online, "") + Offline;
                     break;
             }
-            tokens.Account.UpdateProfile().Name = newName;
+            ChangeName(newName);
         }
 
         // ツイートを送信
@@ -71,6 +42,16 @@ namespace IsMaisuDead {
                 }
             }
 
+        }
+
+        // 名前を取得
+        private static string GetName() {
+            return tokens.Account.UpdateProfile().Name;
+        }
+
+        // 名前を変更
+        private static void ChangeName(string name) {
+            tokens.Account.UpdateProfile().Name = name;
         }
 
         // 改行コード
